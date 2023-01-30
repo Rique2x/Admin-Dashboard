@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 
-.header{
+.header1{
     border: 1px solid;
     display: flex;
     justify-content: space-around;
@@ -51,4 +51,24 @@ body{
     font-size: 1.3em;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+.user-name2{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.user-name2 > img{
+    border: 1px solid;
+    height: 40px;
+}
+
+.user-name2 > p{
+    border: 1px solid;
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
