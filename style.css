@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.search-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon{
+    height: 25px;
+}
+
+#search{
+    height: 25px;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    background-color: #e2e8f0
+;
+}
