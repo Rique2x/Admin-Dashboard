@@ -5,7 +5,6 @@ body{
 }
 
 .search-icons{
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -13,7 +12,6 @@ body{
 }
 
 .header1{
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
 }
@@ -32,31 +30,23 @@ body{
 }
 
 .user-side {
-    border: 1px solid;
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
 .notification > img{
-    border: 1px solid;
     height: 30px;
-    
 }
 
-.account-circle{
-    border: 1px solid;
-}
 
 .user-name{
-    border: 1px solid;
     font-size: 1.3em;
     font-weight: bold;
     font-family: sans-serif;
 }
 
 .header2{
-    border: 1px solid;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -64,7 +54,6 @@ body{
 }
 
 .user-name2{
-    border: 1px solid;
     display: flex;
     column-gap: 20px;
     align-items: center;
@@ -72,19 +61,16 @@ body{
 }
 
 .user-name2 > img{
-    border: 1px solid;
     height: 40px;
 }
 
 .user-name2 > p{
-    border: 1px solid;
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
 
 .buttons{
-    border: 1px solid;
     column-gap: 50px;
     display: flex;
     flex-wrap: wrap;
