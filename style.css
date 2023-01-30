@@ -41,6 +41,7 @@ body{
 .notification > img{
     border: 1px solid;
     height: 30px;
+    
 }
 
 .account-circle{
@@ -54,9 +55,18 @@ body{
     font-family: sans-serif;
 }
 
+.header2{
+    border: 1px solid;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .user-name2{
     border: 1px solid;
     display: flex;
+    column-gap: 20px;
     align-items: center;
 
 }
@@ -71,4 +81,21 @@ body{
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+}
+
+.buttons{
+    border: 1px solid;
+    column-gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons > button{
+    border: 1px solid;
+    font-size: 1em;
+    background-color: #0284c7;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
 }
