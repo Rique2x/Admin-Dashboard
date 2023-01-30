@@ -39,6 +39,10 @@ body{
     align-items: center;
 }
 
+.account-circle > img{
+    height: 40px;
+}
+
 .notification > img{
     height: 30px;
 }
