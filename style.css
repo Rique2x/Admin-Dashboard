@@ -4,16 +4,19 @@ body{
     width: 100vw;
 }
 
-.search-icons{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
-}
-
 .header1{
     display: flex;
     justify-content: space-around;
+}
+
+.search-icons{
+    display: flex;
+    width: 700px; 
+    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
 }
 
 .icon{
@@ -31,6 +34,7 @@ body{
 
 .user-side {
     display: flex;
+    justify-content: flex-en;
     gap: 30px;
     align-items: center;
 }
