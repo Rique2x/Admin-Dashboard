@@ -61,7 +61,7 @@ body{
 }
 
 .user-name2 > img{
-    height: 40px;
+    height: 80px;
 }
 
 .user-name2 > p{
@@ -84,4 +84,5 @@ body{
     width: 90px;
     height: 40px;
     border-radius: 20px;
+    cursor: pointer;
 }
