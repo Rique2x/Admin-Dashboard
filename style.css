@@ -99,6 +99,7 @@ body{
     border: 1px solid;
     display: inline-grid;
     padding-left: 35px;
+    background-color: #e2e8f0;
 }
 
 #project-items{
@@ -112,5 +113,9 @@ body{
 
 .projects{
     border: 1px solid;
+    background-color: rgb(255, 255, 255);
 }
 
+.projects > h4,p{
+    padding: 0 30px;
+}
