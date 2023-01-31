@@ -97,6 +97,16 @@ body{
 
 .project-grid{
     border: 1px solid;
+    display: inline-grid;
+}
+
+#project-items{
+    border: 1px solid;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 400px) ;
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+    padding-left: 30px;
 }
 
 .project1{
