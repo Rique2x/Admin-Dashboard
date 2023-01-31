@@ -114,6 +114,8 @@ body{
 .projects{
     border: 1px solid;
     background-color: rgb(255, 255, 255);
+    border-left: 8px solid #f59e0b;
+    border-radius: 8px;
 }
 
 .projects > h4,p{
