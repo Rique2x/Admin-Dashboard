@@ -137,3 +137,16 @@ body{
 .icon-items > img{
     height: 25px;
 }
+
+
+.announce-grid{
+    border: 1px solid;
+}
+
+.announce-items{
+    border: 1px solid;
+}
+
+.section{
+    border: 1px solid;
+}
