@@ -106,7 +106,7 @@ body{
     border: 1px solid;
     display: inline-grid;
     grid-template-columns: repeat(2, 400px) ;
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(3, 250px);
     gap: 20px;
 }
 
@@ -124,4 +124,16 @@ body{
 
 .projects > h4{
     font-size: 1.25em;
+}
+
+.icon-items{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.icon-items > img{
+    height: 25px;
 }
