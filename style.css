@@ -5,6 +5,7 @@ body {
     display: grid;
 }
 
+
 .header1 {
     display: flex;
     justify-content: space-around;
@@ -56,7 +57,6 @@ body {
 }
 
 .header2 {
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -97,6 +97,7 @@ body {
 }
 
 main {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: #e2e8f0;
     display: grid;
     padding: 30px 30px 0 30px;
@@ -239,13 +240,18 @@ main {
     height: 80px;
 }
 
+.profile{
+    line-height: 7px;
+    padding-left: 15px;
+}
+
 .section1 > p{
     padding-left: 10px;
     text-align: center;
 }
 
-.section1 > p:nth-child(3){
-    color: rgb(66, 66, 66);
+.profile > p:nth-child(2){
+    color: rgb(63, 62, 62);
 }
 
 .section1 > img{
