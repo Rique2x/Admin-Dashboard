@@ -182,6 +182,13 @@ main {
     margin-left: 15px;
 }
 
+.right-side-grid > .head {
+    background-color: #e2e8f0;
+    font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .right-side-grid > article {
     margin-bottom: 30px;
     border: 1px solid rgb(255, 255, 255);
@@ -189,11 +196,6 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
-.right-side-grid > .head {
-    background-color: #e2e8f0;
-    font-size: 1.6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .right-side-grid>.head1 {
     padding: 5px;
@@ -207,17 +209,13 @@ main {
 .icon-items {
     display: flex;
     gap: 20px;
+    justify-content: flex-end;
 }
 
 .icon-items>img {
     height: 25px;
 }
 
-
-.announce-items {
-    border-radius: 1px;
-    background-color: rgb(255, 255, 255);
-}
 
 
 .section {
