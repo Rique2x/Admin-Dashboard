@@ -199,14 +199,18 @@ main {
 }
 
 .right-side-grid > .head {
+    border: 1px;
     background-color: #e2e8f0;
     font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .right-side-grid>.head1 {
     border: 2px solid;
     background-color: #e2e8f0;
     font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
@@ -227,12 +231,14 @@ main {
 
 
 .section {
+    width: 250px;
     margin: 10px;
     height: 80px;
     border-bottom: 1px solid grey;
 }
 
 .section1 {
+    width: 250px;
     margin: 10px;
     height: 120px;
     border: 1px solid;
