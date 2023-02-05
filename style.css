@@ -263,6 +263,10 @@ nav{
     border: 1px solid;
 }
 
+.header{
+    border: 1px solid;
+}
+
 .dashboard{
     display: flex;
     gap: 20px;
@@ -270,4 +274,14 @@ nav{
 
 .dashboard > img{
     height: 65px;
+}
+
+.home{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.home > img{
+    height: 30px;
 }
