@@ -267,21 +267,28 @@ nav{
     border: 1px solid;
 }
 
+
 .dashboard{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .dashboard > img{
     height: 65px;
 }
 
-.home{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.sidebar1 > ul{
+    list-style: none;
 }
 
-.home > img{
+.part1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.part1 > img{
     height: 30px;
 }
