@@ -277,7 +277,7 @@ nav{
 
 
 .dashboard{
-    color: #000;
+    font-family: sans-serif;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -290,6 +290,8 @@ nav{
 }
 
 .sidebar1{
+    font-family: sans-serif;
+   
     margin-bottom: 200px;
 }
 
@@ -319,6 +321,7 @@ nav{
 }
 
 .part2{
+    font-family: sans-serif;
     display: flex;
     align-items: center;
     gap: 20px;
