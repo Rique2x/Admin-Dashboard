@@ -102,6 +102,8 @@ header{
     cursor: pointer;
 }
 
+ /*MAIN PART 2*/
+
 main {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: #e2e8f0;
