@@ -5,6 +5,8 @@ body {
     grid-template-columns: 290px;
 }
 
+    /*HEADER PART 1*/
+
 header{
     display: grid;
     grid-column: 2;
