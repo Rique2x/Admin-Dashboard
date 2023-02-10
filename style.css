@@ -8,7 +8,7 @@ body {
     /*HEADER PART 1*/
 
 header{
-    display: gri;
+    display: grid;
     grid-column: 2;
 }
 
@@ -49,10 +49,12 @@ header{
 
 .account-circle>img {
     height: 40px;
+    cursor: pointer;
 }
 
 .notification>img {
     height: 30px;
+    cursor: pointer;
 }
 
 
@@ -238,6 +240,7 @@ main {
 
 .icon-items>img {
     height: 25px;
+    cursor: pointer;
 }
 
 
@@ -301,7 +304,6 @@ nav{
 
 .sidebar1{
     font-family: sans-serif;
-   
     margin-bottom: 200px;
 }
 
@@ -315,9 +317,14 @@ nav{
     gap: 20px;
 }
 
+.part1 > h4, img{
+    cursor: pointer;
+}
+
 
 .part1 > img{
     height: 30px;
+
 }
 
 .sidebar2{
@@ -337,7 +344,11 @@ nav{
     gap: 20px;
 }
 
+.part2 > h4{
+    cursor: pointer;
+}
 
 .part2 > img{
+    cursor: pointer;
     height: 30px;
 }
