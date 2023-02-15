@@ -317,8 +317,14 @@ nav{
     gap: 20px;
 }
 
-.part1 > h4, img{
+.part1 > h4{
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.part1 > h4:hover{
+    color: aliceblue;
+    transition: 0.3s;
 }
 
 
@@ -346,6 +352,11 @@ nav{
 
 .part2 > h4{
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.part2 > h4:hover{
+    color: aliceblue;
 }
 
 .part2 > img{
